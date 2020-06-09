@@ -1,0 +1,45 @@
+.mat-form-field-infix {
+  width: 1000px;
+}
+.red {
+  background-color: #e65759;
+  width: 10%;
+  height: 25px;
+}
+.yellow {
+  background-color: #fef869;
+  width: 10%;
+  height: 25px;
+}
+.green {
+  background-color: #9bf69c;
+  width: 10%;
+  height: 25px;
+}
+.blue {
+  background-color: #72f4e9;
+  width: 10%;
+  height: 25px;
+}
+.purple {
+  background-color: #ce9feb;
+  width: 10%;
+  height: 25px;
+}
+.lightblue {
+  background-color: #a4ccfb;
+  width: 10%;
+  height: 25px;
+}
+.mat-form-field {
+  width: 80%;
+}
+mat-dialog-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  border: 0;
+  margin: auto;
+  width: 40%;
+}

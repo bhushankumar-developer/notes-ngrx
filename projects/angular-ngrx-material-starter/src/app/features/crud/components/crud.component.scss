@@ -1,0 +1,95 @@
+h1 {
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+mat-card {
+  margin: 0 0 10px 0;
+  cursor: pointer;
+}
+
+.mat-fab {
+  .fa-icon {
+    position: relative;
+    top: 4px;
+  }
+}
+
+.add {
+  margin: 20px auto 0;
+  display: block;
+}
+
+.col-md-6 {
+  margin-bottom: 20px;
+}
+.card {
+  background-color: #fff;
+}
+.color-card {
+  width: 100%;
+  display: inline-block;
+  height: 20px;
+  cursor: pointer;
+}
+.red {
+  background-color: #e65759;
+}
+.yellow {
+  background-color: #fef869;
+}
+.green {
+  background-color: #9bf69c;
+}
+.blue {
+  background-color: #72f4e9;
+}
+.purple {
+  background-color: #ce9feb;
+}
+.lightblue {
+  background-color: #a4ccfb;
+}
+
+.mat-card {
+  display: inline-flex;
+}
+.card h3 {
+  word-break: break-word;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: justify;
+  margin-top: 20px;
+  cursor: pointer;
+}
