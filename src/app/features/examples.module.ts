@@ -59,7 +59,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       provide: MatSnackBarRef,
       useValue: {}
     }
-  ]
+  ],
+  entryComponents: [EditNoteComponent]
 })
 export class ExamplesModule {
   constructor() {}

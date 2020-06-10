@@ -6,6 +6,7 @@ import { CoreModule } from './core/core.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app/app.component';
+import { ExamplesModule } from './features/examples.module';
 
 @NgModule({
   imports: [
@@ -15,11 +16,13 @@ import { AppComponent } from './app/app.component';
 
     // core
     CoreModule,
+    ExamplesModule,
 
     // app
     AppRoutingModule
   ],
   declarations: [AppComponent],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule {}
